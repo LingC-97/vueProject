@@ -1,0 +1,116 @@
+import Vue from 'vue'
+import {
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Form,
+  FormItem,
+  Input,
+  CheckboxGroup,
+  Checkbox,
+  Button,
+  Message,
+  Container,
+  Header,
+  Popover,
+  Aside,
+  Menu,
+  MenuItem,
+  Submenu,
+  Main,
+  Tabs,
+  TabPane,
+  Tag,
+  DatePicker,
+  Dialog,
+  Row,
+  Col,
+  Radio,
+  Loading,
+  Select,
+  Option,
+  Cascader,
+  Table,
+  TableColumn,
+  Popconfirm,
+  Upload,
+  Pagination,
+  Tree,
+  Switch,
+  Tooltip,
+  MessageBox,
+  ColorPicker,
+  InputNumber,
+  Carousel,
+  CarouselItem,
+  Breadcrumb,
+  BreadcrumbItem,
+  Divider,
+  Slider,
+  Collapse,
+  CollapseItem,
+  Link,
+  Steps,
+  Step,
+  Descriptions,
+  MenuItemGroup,
+
+} from 'element-ui'
+
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Button)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Popover)
+Vue.use(Aside)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+Vue.use(Main)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Tag)
+Vue.use(DatePicker)
+Vue.use(Dialog)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Radio)
+Vue.use(Loading.directive)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Cascader)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Popconfirm)
+Vue.use(Upload)
+Vue.use(Pagination)
+Vue.use(Tree)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(ColorPicker)
+Vue.use(InputNumber)
+Vue.use(Carousel)
+Vue.use(CarouselItem)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Divider)
+Vue.use(Slider)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Link)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Descriptions)
+Vue.use(MenuItemGroup)
+
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$prompt = MessageBox.prompt
+Vue.prototype.$alert = MessageBox.alert
